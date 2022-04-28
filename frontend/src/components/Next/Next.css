@@ -1,0 +1,30 @@
+.btnc{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 45px;
+    width: 40%;
+    transform: translate(-50%,-50%);
+    color: black;
+    border: none;
+    outline: none;
+    background: white;
+    cursor: pointer;
+}
+.btnc:hover{
+    background: rgb(238,11,105);
+    color: white;
+    transition: all 0.5s;
+}
+.card{
+    border: none;
+    border-radius: 0;
+    overflow: hidden;
+}
+.zoom-n-rotate img{
+    transition: transfrom .5s ease-in-out;
+}
+.zoom-n-rotate img:hover{
+    
+    transform: scale(1.2);
+}
